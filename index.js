@@ -12,7 +12,7 @@ dotenv.config();
 
 const io = new Server(server, {
   cors: {
-    origin: "https://65053eb75d971a63f8e266be--wondrous-bunny-2e7121.netlify.app/",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
